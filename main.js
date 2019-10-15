@@ -39,10 +39,10 @@ class Courses {
 }
 
 userArr = [];
-userArr.push(new User("leul", "Mayor", 7204515972, "student", "123", "123"));
+userArr.push(new Student("leul", "Mayor", 7204515972, "student", "123", "123","2018","4.00"));
 userArr.push(new User("John", "George", 7204515973, "admin", "1234", "1234"));
-userArr.push(new User("Bob", "Simon", 7204515974, "faculty", "12345", "12345"));
-userArr.push(new User("James", "Blake", 7204515975, "student", "123456", "123456"));
+userArr.push(new Faculty("Bob", "Simon", 7204515974, "faculty", "12345", "12345","cs"));
+userArr.push(new Student("James", "Blake", 7204515975, "student", "123456", "123456","2019","4.00"));
 
 coursesArr = [];
 coursesArr.push(new Courses("Physics", 320, "PHy320"));
